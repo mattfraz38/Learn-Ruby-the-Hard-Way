@@ -1,0 +1,5 @@
+puts "I can view this in the terminal"
+# puts "I can't view this becasue it's commented out"
+puts "But I can view this"
+puts "This is too simple and easy"
+# puts "Way too simple and easy"
