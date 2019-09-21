@@ -8,6 +8,9 @@ puts "Your first variable is: #{first}"
 puts "Your second variable is: #{second}"
 puts "Your third variable is: #{third}"
 
+# the following allows you to use ARGV
+# while still getting input from the user
+# while the program is running
 print "Say something else!! "
 something_else = $stdin.gets.chomp
 puts "The 'something else' you said is: #{something_else}."
