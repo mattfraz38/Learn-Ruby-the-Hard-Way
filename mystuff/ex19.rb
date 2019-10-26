@@ -1,3 +1,5 @@
+require 'time'
+
 # defines the cheese_and_cackers method
 # takes two integer arguments
 # puts written information for the user
