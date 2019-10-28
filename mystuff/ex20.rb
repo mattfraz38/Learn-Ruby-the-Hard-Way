@@ -6,7 +6,9 @@ def print_all(f)
   puts f.read
 end
 
-# returning to the 0 poition in a file, the beginning
+# seek deals with bytes
+# returning to the 0 poition (0 bytes position)
+#  in a file => the beginning
 def rewind(f)
   f.seek(0)
 end
